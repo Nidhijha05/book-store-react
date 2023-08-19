@@ -1,0 +1,57 @@
+.add-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.add-title-h{
+    margin: 0 0 15px 0;
+    font-size: 32px;
+}
+
+.add-title hr{
+    width: 9%;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 20% 0 10%;
+}
+
+.form-name{
+    margin-left: 15px;
+    width: 40%;
+}
+
+.form-price{
+    margin-left: 15px;
+    width: 40%;
+}
+
+.book{
+    overflow-x: hidden;
+}
+
+.form-category{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.form-image{
+    margin-left: 20px;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.form-description{
+    width: 82%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.form-btn{
+    margin: 50px 160px 110px;
+    width: 35%;
+
+}

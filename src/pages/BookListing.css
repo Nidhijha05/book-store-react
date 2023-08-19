@@ -1,0 +1,182 @@
+.book-list{
+    overflow-x: hidden;
+    background-color: #FFF5EE	;
+}
+
+.bl-container-center{
+    margin-top: 50px;
+    text-align: center;
+}
+.bl-container-center h1{
+    margin: 0 0 15px 0;
+    font-size: 32px;
+}
+.bl-container-center h1:hover{
+    font-family:Brodway;
+    color: rgb(51, 4, 107);
+    text-shadow: -1px 1px 0 #41ba45,
+          2px 2px 0 #f052e8,
+         1px -1px 0 #42afac,
+        -1px -1px 0 #c6c23f;
+
+  transition: .1s, background-position 0s;
+  font-family:Arial Black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+
+
+.bl-container-main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+    .bl-container-mini-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+            .bl-container-bookcount h3{
+                margin: 9px;
+            }
+
+
+        .bl-container-search-sort{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 50%;
+        }
+
+
+            .bl-container-search{
+                width: 50%;
+            }
+                .bl-container-search .MuiTextField-root{    width: 100%;    }
+                .bl-container-search input{    padding: 12px;    }
+
+            .bl-container-sort{
+                width: 40%;
+            }
+                .bl-container-sort .MuiFormControl-root{    width: 100%;    margin: 0;  }
+
+/* .bl-wrapper{
+
+} */
+    .bl-inner-wrapper{
+        display: flex;
+        /* flex: 0 0 25%; */
+        flex-wrap: wrap;
+    }
+        .bl-card{
+            /* width: 22%; */
+            margin: 1.5%;
+            flex: 0 0 22%;
+            display: flex;
+            flex-direction: column;
+
+            box-sizing: border-box;
+            /* border: 1px solid rgba(0, 0, 0, 0.2); */
+            border-radius: 20px;
+            
+        }
+        .bl-card:hover{
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            transition: 200ms;
+            border: 0px;
+            animation-timing-function: ease-out;
+        }
+
+            .bl-img{
+                width: 100%;
+                height: 220px;
+            }
+                .bl-imgtag{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                    border-radius: 20px 20px 0 0;
+                }
+
+            .bl-content{
+                display: flex;
+                flex-direction: column;
+                padding: 20px 15px;
+            }
+
+            /* .bl-name{
+                
+            } */
+                .bl-name h2{
+                    margin: 0 0 2px 0;
+                    
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+            /* .bl-category{
+
+            } */
+                .bl-category p{
+                    margin: 0 0 10px 0;
+                    color: #838383;
+                }
+
+            .bl-descreption{
+                height: 40px;
+            }
+                .bl-descreption p{
+                    margin: 0;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+            .bl-price{
+                margin: 20px 0;
+            }
+                .bl-price p{
+                    font-size: 18px;
+                    color: #838383;
+                    margin: 0;
+                }
+
+            .bl-cart-btn{
+                font-family: 'Arial Black', cursive;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px;
+  color: #050606;
+  background-color: #b0b4f6;
+  box-shadow: 4px 4px 0 rgb(12, 11, 83);
+  outline: 0;
+            }
+            .b1-cqrt-btn:active{
+                transform: translateX(4px) translateY(4px);
+  background: #004da4;
+            }
+                .bl-cart-btn button{
+                    width: 100%;
+                }
+
+.bl-pagination-wrapper{
+    margin-top: 30px;
+}
+    .bl-pagination-wrapper ul{
+        justify-content: center;
+    }

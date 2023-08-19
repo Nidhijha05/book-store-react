@@ -1,0 +1,122 @@
+.cart{
+    overflow-x: hidden;
+    background-color: #FFF5EE	;
+}
+
+.cart-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.cart-heading{
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    font-family: Broadway;
+}
+
+.cart-heading:hover{
+    font-family:Brodway;
+    color: rgb(51, 4, 107);
+    text-shadow: -1px 1px 0 #41ba45,
+          2px 2px 0 #f052e8,
+         1px -1px 0 #42afac,
+        -1px -1px 0 #c6c23f;
+
+  transition: .1s, background-position 0s;
+  font-family:Arial Black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.cart-shopping{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart-shopping h2{
+    font-size: large;
+    padding-left: 25% ;
+    
+}
+.cart-shopping h4{
+    padding-right: 25% ;
+    margin-top: 16px;
+}
+.cart-item{
+    width: 50%;
+    padding-left: 25%;
+}
+.cart-product{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    border: 1px solid rgb(188, 185, 185);
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 8px;
+    
+    
+}
+.cart-product-left{
+    width: 20%;
+    height: 111px;
+    overflow: hidden;
+}
+.cart-product-left img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.cart-product-middle{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0 5px 20px;
+}
+.cart-product-name{
+    margin: 2px 0 5px 0;
+    font-weight: bold;
+}
+.cart-product-link{
+    margin: 2px 0 10px 0;
+}
+.cart-product-link a{
+    text-decoration: none;
+    color: #f15d54;
+}
+.cart-product-btn{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0 5px 0 ;
+}
+.cart-product-btn button{
+    padding: 0;
+    width: 10%;
+}
+.quantity{
+    margin: 0 7px;
+    box-sizing: border-box;
+    border: 1px solid rgb(188, 185, 185);
+    width: 20px;
+    text-align: center;
+}
+.cart-product-right{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.cart-product-right button{
+    margin-top: 23px;
+    text-decoration: none;
+    color: #f15d54;
+    margin-right: -10px;
+}
+.cart-place-order{
+    margin-top: 40px;
+    padding-left: 25%;
+    margin-bottom: 80px;
+
+}
+
+

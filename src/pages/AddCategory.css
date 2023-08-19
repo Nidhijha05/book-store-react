@@ -1,0 +1,32 @@
+.cat-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.cat-title-h{
+    margin: 0 0 15px 0;
+    font-size: 32px;
+}
+
+.cat-title hr{
+    width: 15%;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 20% 0 10%;
+}
+
+.form-cname{
+    margin-left: 150px;
+    width: 35%;
+}
+.cat{
+    overflow-x: hidden;
+}
+.cat-btn{
+    margin: 50px 295px 110px;
+    width: 35%;
+}

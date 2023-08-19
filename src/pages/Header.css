@@ -1,0 +1,39 @@
+.header{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    height: 90px;
+}
+
+.upperredline{
+    background-color: rgb(21, 8, 8);
+    height: 10px;
+    overflow-x: hidden;
+
+}
+.container{
+    margin-top: 25px;
+    height: 40px;
+}
+
+.img1{
+    height: 50px;
+    
+
+}
+.bts{
+    background-color: black;
+    color: brown;
+}
+button{
+    width: 90.88px;
+    color: rgb(218, 113, 205);
+    background-color: black;
+  transition: .2s, background-position 0s;
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+

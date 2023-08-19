@@ -1,0 +1,49 @@
+.edit{
+    overflow-x: hidden;
+}
+
+.edit-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.edit-heading-h{
+    margin: 0 0 15px 0;
+    font-size: 32px;
+}
+
+.edit-heading hr{
+    width: 9%;
+    border: 1px solid red;
+    margin-bottom: 40px;
+}
+.edit-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 20% 0 10%;
+}
+
+.edit-form-first{
+    margin-left: 15px;
+    width: 40%;
+}
+
+.edit-form-last{
+    margin-left: 15px;
+    width: 40%;
+}
+
+.edit-form-email{
+    
+    margin-left: 15px;
+    width: 40%;
+}
+.edit-form-role{
+    margin-left: 15px;
+    margin-top: 3px;
+    width: 40%;
+}
+.edit-form-btn{
+    margin: 35px 160px 110px;
+    width: 35%;
+}

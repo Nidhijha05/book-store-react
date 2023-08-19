@@ -1,0 +1,45 @@
+.user{
+    background-color:#FFF7FF;
+}
+.user-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.user-heading-h{
+    margin: 0 0 15px 0;
+    font-size: 40px;
+    font-family:Brodway;
+}
+.user-heading-h:hover{
+    margin: 0 0 15px 0;
+    font-size: 40px;
+    font-family:Brodway;
+    color: rgb(51, 4, 107);
+    text-shadow: -1px 1px 0 #41ba45,
+          2px 2px 0 #f052e8,
+         1px -1px 0 #42afac,
+        -1px -1px 0 #c6c23f;
+
+  transition: .1s, background-position 0s;
+  font-family:Arial Black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.user{
+    overflow-x: hidden;
+}
+.user-search{
+    margin-left: 900px;
+    margin-right: 0;
+}
+.user-table{
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.user-page{
+    padding-right: 250px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}

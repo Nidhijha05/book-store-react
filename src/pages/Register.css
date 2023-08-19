@@ -1,0 +1,122 @@
+
+.home{
+    text-align: center;
+    padding-top: 30px;
+}
+.row{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.row:hover{
+    font-family:Brodway;
+    color: rgb(51, 4, 107);
+    text-shadow: -1px 1px 0 #41ba45,
+          2px 2px 0 #f052e8,
+         1px -1px 0 #42afac,
+        -1px -1px 0 #c6c23f;
+
+  transition: .1s, background-position 0s;
+  font-family:Arial Black;
+  font-weight: bolder;
+  text-decoration: underline;
+
+}
+.personal{
+    padding: 0px 7.5% 10px 10%;
+}
+.personal hr{
+    margin: 5px 0;
+}
+
+.personal .prsnl{
+    font-weight: 700;
+    font-size: 20px;
+}
+.info{
+    color: #838383;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.fname{
+    margin-right: 15px;
+    width: 40%;
+}
+.lname{
+    margin-right: 15px;
+    width: 40%;
+}
+.fname p,.lname p{
+    margin-bottom: 10px;
+    
+}
+
+.fname input,.lname input{
+    width: 100%;
+    height: 40px;
+}
+.email{
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.roleId{
+    width: 40%;
+    margin-right: 0;
+    margin-top: 10px;
+}
+.email p, .roleId p{
+    margin-bottom: 10px;
+}
+.email input, .roleId Select{
+    width: 100%;
+    height: 40px;
+}
+.login{
+    width: 100%;
+}
+.login h2{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.login hr{
+    margin-top: 40px;
+    margin-right: 18%;
+}
+
+.pass{
+    display: flex;
+    width: 90%;
+    
+}
+
+.pass p{
+    margin-bottom: 10px;
+}
+.p1{
+    width: 45%;
+    margin-right: 15px;
+}
+.p2{
+    margin-right: 15px;
+    width: 45%;
+}
+.p1 input, .p2 input{
+    width: 100%;
+    height: 40px;
+}
+.btn{
+    width: 100%;
+}
+.btn button{
+    width: 136px;
+    height: 40px;
+    font-size: 16px;
+
+}
+

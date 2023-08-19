@@ -1,0 +1,59 @@
+const first20 = [
+    { label: 'To kill a mockingbird', year: 1994 },
+    { label: 'The Great Gatsby', year: 1972 },
+    { label: 'The lord of the rings', year: 1974 },
+    { label: 'Nineteen Eighty-Four', year: 2008 },
+    { label: 'Wuthering Heights', year: 1957 },
+    { label: "The Vatcher in the rye", year: 1993 },
+    { label: 'Things fall apart', year: 1994 },
+    {
+      label: 'Middlemarch',
+      year: 2003,
+    },
+    { label: 'Alice in wonderland', year: 1966 },
+    { label: 'A Better India: A Better World', year: 1999 },
+    {
+      label: 'A suitable boy',
+      year: 2001,
+    },
+    {
+      label: 'A week with gandhi',
+      year: 1980,
+    },
+    { label: 'Man and Superman', year: 1994 },
+    { label: 'The 3 mistakes of my life', year: 2010 },
+    {
+      label: '400 Days',
+      year: 2002,
+    },
+    { label: "How to win friends and influence people", year: 1975 },
+    { label: 'The 5 AM club', year: 1990 },
+    { label: 'Rich Dad Poor Dad', year: 1999 },
+    { label: 'Life of Pi', year: 1954 },
+    {
+      label: 'Thinking,Fast and Slow',
+      year: 1977,
+    },
+
+.search{
+    
+    height: 80px;
+    background-color: rgb(216, 211, 211);
+}
+
+.btnm{
+    width: 100px;
+    height: 40px;
+}
+
+<div className="search">
+        <Autocomplete
+          disablePortal
+          options={first20} sx={{ width: 430, marginLeft: 60, color: "white", height: 20 }}
+          renderInput={(params) => <TextField {...params} label="What are you looking for.." sx={{ backgroundColor: "white", border: "solid", alignItems: "center", marginTop: 1 }} />} />
+
+        <Button className="btnm" sx={{ marginLeft: 118 }} onClick={() => nav('/product-list')} variant="contained" color="success"><SearchIcon variant="contained"></SearchIcon></Button><span>  </span>
+        <Button className="btnm" variant="contained" color="error">Cancel</Button>
+
+      </div>
+

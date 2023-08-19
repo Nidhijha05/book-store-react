@@ -1,0 +1,29 @@
+
+.imp{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    padding-left: 400px;
+    padding-top: 10px;
+    overflow-x: hidden;
+}
+.imp-1{
+    border-radius: 5px;
+    
+}
+.h-related-list{
+    box-shadow: 0.5px 0.5px 4px 0.5px #838383;
+    border-radius: 4px;
+    z-index: 1;
+    width: 140%;
+}
+
+.one{
+    height: auto;
+    border-radius: 4px;
+}
+.one-no, .one-not{
+    padding: 15px;
+    margin: 0;
+}
+
